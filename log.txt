@@ -1,0 +1,161 @@
+magnus:Constructor-Word-Guess alex$ node index.js
+
+Welcome to the Word Guess Game!
+
+ _ _ _ _ _ _
+
+? Guess a letter! v
+ > 0 hit(s)!
+ > 9 guesses remaining!
+
+ _ _ _ _ _ _
+
+? Guess a letter! f
+ > 1 hit(s)!
+
+ F _ _ _ _ _
+
+? Guess a letter! r
+ > 1 hit(s)!
+
+ F r _ _ _ _
+
+? Guess a letter! o
+ > 1 hit(s)!
+
+magnus:Constructor-Word-Guess alex$ node index.js
+
+Welcome to the Word Guess Game!
+
+ _ _ _ _ _ _ _ _   _ _ _ _
+
+? Guess a letter! a
+ > 2 hit(s)!
+
+ _ _ _ _ a _ _ _   _ a _ _
+
+? Guess a letter! e
+ > 0 hit(s)!
+ > 9 guesses remaining!
+
+ _ _ _ _ a _ _ _   _ a _ _
+
+? Guess a letter! i
+ > 1 hit(s)!
+
+ _ _ _ _ a _ i _   _ a _ _
+
+? Guess a letter! o
+ > 0 hit(s)!
+ > 8 guesses remaining!
+
+ _ _ _ _ a _ i _   _ a _ _
+
+? Guess a letter! u
+ > 1 hit(s)!
+
+ _ u _ _ a _ i _   _ a _ _
+
+? Guess a letter! r
+ > 3 hit(s)!
+
+ _ u r r a _ i _   _ a r _
+
+? Guess a letter! j
+ > 1 hit(s)!
+
+ J u r r a _ i _   _ a r _
+
+? Guess a letter! s
+ > 1 hit(s)!
+
+ J u r r a s i _   _ a r _
+
+? Guess a letter! c
+ > 1 hit(s)!
+
+ J u r r a s i c   _ a r _
+
+? Guess a letter! p
+ > 1 hit(s)!
+
+ J u r r a s i c   P a r _
+
+? Guess a letter! k
+ > 1 hit(s)!
+ > You solved it!!
+
+ J u r r a s i c   P a r k
+
+? Play Again? Yes
+
+Welcome to the Word Guess Game!
+
+ _ _ _ _ _ _
+
+? Guess a letter! X
+ > 0 hit(s)!
+ > 9 guesses remaining!
+
+ _ _ _ _ _ _
+
+? Guess a letter! X
+ > 0 hit(s)!
+ > 8 guesses remaining!
+
+ _ _ _ _ _ _
+
+? Guess a letter! X
+ > 0 hit(s)!
+ > 7 guesses remaining!
+
+ _ _ _ _ _ _
+
+? Guess a letter! X
+ > 0 hit(s)!
+ > 6 guesses remaining!
+
+ _ _ _ _ _ _
+
+? Guess a letter! X
+ > 0 hit(s)!
+ > 5 guesses remaining!
+
+ _ _ _ _ _ _
+
+? Guess a letter! X
+ > 0 hit(s)!
+ > 4 guesses remaining!
+
+ _ _ _ _ _ _
+
+? Guess a letter! X
+ > 0 hit(s)!
+ > 3 guesses remaining!
+
+ _ _ _ _ _ _
+
+? Guess a letter! X
+ > 0 hit(s)!
+ > 2 guesses remaining!
+
+ _ _ _ _ _ _
+
+? Guess a letter! X
+ > 0 hit(s)!
+ > 1 guesses remaining!
+
+ _ _ _ _ _ _
+
+? Guess a letter! X
+ > 0 hit(s)!
+ > 0 guesses remaining!
+ > You lose!!
+
+ F r o z e n
+
+? Play Again? No
+
+ > Goodbye!
+
+magnus:Constructor-Word-Guess alex$
