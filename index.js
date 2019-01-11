@@ -1,3 +1,5 @@
+// Simple word guess game using contructors
+
 var Word = require("./word.js");
 var inquirer = require('inquirer');
 
