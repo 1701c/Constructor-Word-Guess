@@ -2,23 +2,26 @@ var Letter = require("./letter.js");
 
 var Word = function(word) {
   this.letters = [];
-  this.word = word;
+  for (i=0; i<word.length; i++) {
+    this.letters[i] = new Letter(word[i]);
+    this.letters[i].check(' ');
+  }
   
   this.gameboard = function() {
     var gameboard = '';
     for (i=0; i<this.letters.length; i++) {
       gameboard = gameboard + ' ' + this.letters[i].tile();
     }
+    return(gameboard + '\n');
   }
-  
-  // this.addStudent = function(name, favoriteSub, gpa) {
-  //   this.students.push(new Student(name, favoriteSub, gpa));
-  // };
-  
-  // this method will tell you how many students are in the class
-  // this.studentCount = function() {
-  //   return this.students.length;
-  // };
+
+  this.isSolved = function() {
+    var isSolved = true;
+    for (i = 0; i < this.letters.length; i++) {
+      if (!this.letters[i].guessed) isSolved = false;
+    }
+    return(isSolved);
+  }
 
 };
 
